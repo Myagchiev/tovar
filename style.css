@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --price-color: #941B0C;
+    --small-text: #808080;
+    --right-card: #FFD100;
+}
+
+.product {
+    width: 760px;
+    height: 454px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.card-one {
+    width: 350px;
+    height: 434px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.black-card {
+    width: 380px;
+    height: 454px;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+
+.card-two {
+    width: 350px;
+    height: 434px;
+    background-color: var(--right-card);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.icon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.ten {
+    font-family: 'Rubik', sans-serif;
+    color:white;
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    top: 33px;
+    left: 20px;
+    transform: rotate(-45deg);
+}
+
+.text {
+    width: 290px;
+    height: 98px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.lorem {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.small {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--small-text);
+    line-height: 25px;
+    opacity: 70%;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.price {
+    text-align: right;
+    position: absolute;
+    bottom:20px;
+    right: 30px;
+}
+
+.small-price {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--small-text);
+}
+
+.small-price:after {
+        content: " \20BD";
+}
+
+.big-price {
+    font-family: 'Rubik', sans-serif;
+    font-size: 43px;
+    font-weight: 500;
+    color: var(--price-color);
+}
+
+.big-price:after {
+    content: " \20BD";
+}
+
+.corner
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 0 0 0 10px;
+    box-shadow: -5px 5px black;
+    position: absolute;
+    bottom: 80px;
+}
+
+.corner2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 0 0 0 10px;
+    box-shadow: -10px 0px black;
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+}
+
+.corner3
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 0 0 0 10px;
+    box-shadow: -5px 5px black;
+    position: absolute;
+    bottom: 80px;
+}
+
+.corner4 {
+    background-color: var(--right-card);
+    width: 20px;
+    height: 20px;
+    border-radius: 0 0 0 10px;
+    box-shadow: -10px 0px black;
+    position: absolute;
+    left: 110px;
+    bottom: 0px;
+}
